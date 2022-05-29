@@ -65,3 +65,13 @@ define('JWT_AUTH_CORS_ENABLE', true);
 <p>https://localhost/moments/json/api/photo/{id}</p>
 <p>
 <p>token: ""</p>
+
+<h4>7 - Comment post (POST)</h4>
+<p>https://localhost/moments/json/api/comment/{id}</p>
+<p>
+<p>token: ""</p>
+<p>
+{
+"comment": ""
+}
+</p>
