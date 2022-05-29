@@ -17,6 +17,7 @@ $dirbase = get_template_directory();
 require_once $dirbase . '/endpoints/user_post.php';
 require_once $dirbase . '/endpoints/user_get.php';
 require_once $dirbase . '/endpoints/photo_post.php';
+require_once $dirbase . '/endpoints/photo_delete.php';
 
 /** Change size images on upload */
 update_option('large_size_w', 1000);

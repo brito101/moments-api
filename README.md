@@ -60,3 +60,8 @@ define('JWT_AUTH_CORS_ENABLE', true);
 "description": ""
 }
 </p>
+
+<h4>6 - DELETE photo (DELETE)</h4>
+<p>https://localhost/moments/json/api/photo/{id}</p>
+<p>
+<p>token: ""</p>
