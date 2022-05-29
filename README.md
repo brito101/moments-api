@@ -103,3 +103,7 @@ define('JWT_AUTH_CORS_ENABLE', true);
 "password": ""
 }
 </p>
+
+<h4>13 - GET current user stats (GET)</h4>
+<p>https://localhost/moments/json/api/stats</p>
+<p>"token": ""</p>

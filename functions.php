@@ -26,6 +26,7 @@ require_once $dirbase . '/endpoints/photo_get.php';
 require_once $dirbase . '/endpoints/photo_delete.php';
 require_once $dirbase . '/endpoints/comment_post.php';
 require_once $dirbase . '/endpoints/comment_get.php';
+require_once $dirbase . '/endpoints/stats_get.php';
 require_once $dirbase . '/endpoints/password.php';
 
 /** Change size images on upload */
