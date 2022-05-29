@@ -87,3 +87,19 @@ define('JWT_AUTH_CORS_ENABLE', true);
 
 <h4>10 - GET total, pageable or specific user in query string PHOTO post (GET)</h4>
 <p>https://localhost/moments/json/api/photo/?_total=N&_page=N&_user=N</p>
+
+<h4>11 - Password LOST (POST)</h4>
+<p>https://localhost/moments/json/api/password/lost</p>
+<p>
+{
+"login": ""
+}
+</p>
+
+<h4>12 - Password RESET (POST)</h4>
+<p>https://localhost/moments/json/api/password/reset</p>
+<p>
+{
+"password": ""
+}
+</p>
