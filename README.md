@@ -1,12 +1,12 @@
 <h2> MOMENTS API</h2>
 
-# 1 - Define API route name in functions;
+<h3> 1 - Define API route name in functions;</h3>
 
-# 2 - Create endpoints;
+<h3> 2 - Create endpoints;</h3>
 
-# 3 - Install plugin JWT Authentication for WP REST API by Enrique Chavez;
+<h3> 3 - Install plugin JWT Authentication for WP REST API by Enrique Chavez;</h3>
 
-# 4 - Edit .htaccess:
+<h3> 4 - Edit .htaccess:</h3>
 
 RewriteEngine on
 RewriteCond %{HTTP:Authorization} ^(._)
@@ -14,14 +14,14 @@ RewriteRule ^(._) - [E=HTTP_AUTHORIZATION:%1]
 
 SetEnvIf Authorization "(.\*)" HTTP_AUTHORIZATION=$1
 
-# 5 - ADD in wp-config.php file (use https://api.wordpress.org/secret-key/1.1/salt/ to secret-key) ON TOP ARCHIVE:
+<h3> 5 - ADD in wp-config.php file (use https://api.wordpress.org/secret-key/1.1/salt/ to secret-key) ON TOP ARCHIVE:</h3>
 
 define('JWT_AUTH_SECRET_KEY', 'your-top-secret-key');
 define('JWT_AUTH_CORS_ENABLE', true);
 
-# 6 - Refresh permalinks;
+<h3> 6 - Refresh permalinks;</h3>
 
-# Obs:
+<h3> Obs:</h3>
 
 1 - GET TOKEN value:
 POST
