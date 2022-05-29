@@ -75,3 +75,6 @@ define('JWT_AUTH_CORS_ENABLE', true);
 "comment": ""
 }
 </p>
+
+<h4>8 - GET Comments post (GET)</h4>
+<p>https://localhost/moments/json/api/comment/{id}</p>
