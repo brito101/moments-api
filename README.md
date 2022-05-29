@@ -21,8 +21,8 @@ define('JWT_AUTH_CORS_ENABLE', true);
 
 <h3> 6 - Refresh permalinks;</h3>
 
-<h3> Obs:</h3>
-
+<h3> Endpoints:</h3>
+<code>
 1 - GET TOKEN value:
 POST
 https://localhost/moments/json/jwt-auth/v1/token/
@@ -31,8 +31,13 @@ https://localhost/moments/json/jwt-auth/v1/token/
 "email": "",
 "password": ""
 }
+</code>
 
+<code>
 2 - GET TOKEN validate:
-GET
+POST
 https://localhost/moments/json/jwt-auth/v1/token/validate
 token: ""
+</code>
+
+3 - POST photo https://localhost/moments/json/api/photo
