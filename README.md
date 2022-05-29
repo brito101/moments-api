@@ -78,3 +78,12 @@ define('JWT_AUTH_CORS_ENABLE', true);
 
 <h4>8 - GET Comments post (GET)</h4>
 <p>https://localhost/moments/json/api/comment/{id}</p>
+
+<h4>9 - GET single PHOTO post (GET)</h4>
+<p>https://localhost/moments/json/api/photo/{id}</p>
+
+<h4>10 - GET ALL PHOTO post (GET)</h4>
+<p>https://localhost/moments/json/api/photo</p>
+
+<h4>10 - GET total, pageable or specific user in query string PHOTO post (GET)</h4>
+<p>https://localhost/moments/json/api/photo/?_total=N&_page=N&_user=N</p>
